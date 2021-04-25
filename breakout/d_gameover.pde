@@ -7,7 +7,7 @@ void gameover() {
   textFont(font1);
   fill(0);
   textSize(ts);
-  text("GAME OVER!", 350, 300);
+  text("GAME OVER!", 350, 250);
   textSize(10);
   textFont(font2);
   text("you lost.", 350, 400);}
@@ -15,8 +15,8 @@ void gameover() {
   if (points > 51){
     textFont(font1);
   fill(0);
-  textSize(80);
-  text("GAME COMPLETE!", 350, 300);
+  textSize(75);
+  text("GAME COMPLETE!", 350, 250);
   textSize(10);
   textFont(font2);
   text("you win!", 350, 400);
