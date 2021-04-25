@@ -5,7 +5,7 @@ image(border2, 0, 0, 700, 600);
  textFont(font1);
   fill(0);
   textSize(80);
-  text("intructions", 350, 70);
+  text("instructions", 350, 70);
   
   fill(0);
   textFont(font2);
